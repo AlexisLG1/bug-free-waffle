@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: none;
+    padding: 20px;
+    text-align: center;
+}
+
+#login-container {
+    display: block;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+}
+
+input[type="button"] {
+    padding: 10px 20px;
+}
+
+.message {
+    margin-top: 20px;
+    color: red;
+}

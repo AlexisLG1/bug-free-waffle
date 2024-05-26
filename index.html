@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Login Screen -->
+    <div id="login-container" class="container">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username"><br>
+        <input type="password" id="password" placeholder="Password"><br>
+        <input type="button" value="Login" onclick="login()"><br>
+        <input type="checkbox" id="rememberMe"> Remember Me
+        <p class="message" id="login-message"></p>
+    </div>
+
+    <!-- Welcome Screen -->
+    <div id="welcome-container" class="container">
+        <h2>Welcome!!</h2>
+        <input type="button" value="Logout" onclick="logout()">
+    </div>
+
+    <!-- Error Screen -->
+    <div id="error-container" class="container">
+        <h2>Error</h2>
+        <p>Invalid username/password</p>
+        <input type="button" value="Return" onclick="showLogin()">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
